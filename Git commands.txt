@@ -1,0 +1,35 @@
+1.Command used to download the Repository
+   git clone 
+
+2. Command to add Data to the staging area 
+   git add .
+
+3. Command to add data to the local repo
+   git commit -m "your message"
+
+4. Command to upload to the remote repo
+   git push origin master
+
+5. To create a new branch
+  ---> git branch branch_name 
+       git checkout branch_name
+              OR
+  ----> git checkout -b branch_name
+
+6. To unstage the file
+   git reset HEAD file_name
+
+7. To cancel the changes of a  file
+   git checkout  file_name
+
+8. To see the status
+   git status
+
+9. To see the list of commands
+   git log
+
+10. To cancel all the changes
+    git stash
+
+11. To see the difference b/w old and new content
+    git diff
